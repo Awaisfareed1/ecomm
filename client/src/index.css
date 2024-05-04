@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar1 {
+    @apply  fixed top-0 w-full transition duration-500 ease-out shadow-lg;
+}
+
+.navbar2 {
+    @apply relative w-full transition duration-500 ease-out;
+}
+
+.toplayout{
+    @apply mt-[30%] sm:mt-[20%] md:mt-[17%] lg:mt-[14%]  xl:mt-[12%]
+}
+
+.bottomLayout{
+    @apply mt-[0%]
+}
